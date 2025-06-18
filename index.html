@@ -1,0 +1,336 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/images/icons8-programing-64.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Sara Youssef - Front-end Developer</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <img src="assets/images/icons8-programing-64.png" width="50px">
+            <a href="#" class="nav__logo">Sara<span>Youssef</span></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certifications" class="nav__link">Certifications</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon moon-icon"></i>
+                    <i class="fas fa-sun sun-icon"></i>
+                </div>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-3-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">Hello, Welcome <span>I'm</span></h3>
+                        <h1 class="home__title">Sara Youssef</h1>
+                        <h3 class="home__education">Front-end Developer</h3>
+                        <p class="home__description">As a Frontend Developer, I specialize in crafting professional web applications for businesses and companies. I bring solid development skills with a focus on collaboration, communication, and a passion for creating engaging user experiences.</p>
+                        <a href="https://t.me/sarayou6" target="_blank" class="button button--flex">
+                            Contact Me <i class="fas fa-paper-plane button__icon"></i>
+                        </a>
+                    </div>
+                    <div class="home__social">
+                        <a href="https://github.com/sarayoutest" target="_blank" class="home__social-link" aria-label="GitHub Profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sara-yo-b9295b25b" target="_blank" class="home__social-link" aria-label="LinkedIn Profile">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/share/8k8EEd9siiGjy7Bh/?mibextid=LQQJ4d" target="_blank" class="home__social-link" aria-label="Facebook Profile">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__image">
+                    <img src="assets/images/home.jpg" alt="Sara Youssef Profile" class="home__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                
+                <div class="about__data">
+                    <h3 class="section__subtitle">My <span>Intro</span></h3>
+                    <h2 class="section__title">About Me</h2>
+                    <p class="about__description">I have years of experience in frontend development, and many clients are happy with the projects I've delivered. My focus is on creating user-friendly and visually appealing web applications.</p>
+                    <a href="pdf/CV_Sara_Youssef.pdf" download class="button button--flex">
+                        Download CV <i class="fas fa-download button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h3 class="section__subtitle">Favorite <span>Skills</span></h3>
+            <h2 class="section__title">My Skills</h2>
+            <div class="skills__container container grid">
+                <p class="skills__description">Explore my technical proficiencies and the tools I leverage to build robust and interactive web experiences.</p>
+                <div class="skills__content">
+                    <ul class="skills__group">
+                        <li class="skills__item">HTML & CSS</li>
+                        <li class="skills__item">JavaScript</li>
+                        <li class="skills__item">Bootstrap</li>
+                        <li class="skills__item">React</li>
+                    </ul>
+                    <ul class="skills__group">
+                        <li class="skills__item">Git & GitHub</li>
+                        <li class="skills__item">Responsive Design</li>
+                        <li class="skills__item">UI/UX Principles</li>
+                    </ul>
+                </div>
+                <a href="#projects" class="button button--flex">See Projects <i class="fas fa-arrow-right button__icon"></i></a>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <h3 class="section__subtitle">My <span>Services</span></h3>
+            <h2 class="section__title">What I Do</h2>
+            <div class="services__container container grid">
+                <article class="services__card">
+                        <i class="fas fa-laptop-code services__icon"></i>
+                        <h2 class="services__title">Web Development</h2>
+                        <p class="services__description">Development of custom web pages using modern technologies and industry best practices.</p>
+                </article>
+
+                <article class="services__card">
+                        <i class="fas fa-certificate services__icon"></i>
+                        <h2 class="services__title">ICDL Certified</h2>
+                        <p class="services__description">Certified in International Computer Driving Licence (ICDL), demonstrating proficiency in computer essential skills.</p>                   
+                </article>
+
+                <article class="services__card">
+                        <i class="fas fa-language services__icon"></i>
+                        <h2 class="services__title">English Communication</h2>
+                        <p class="services__description">Professional English communication skills, enabling clear and effective interaction.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <h3 class="section__subtitle">My <span>Jobs</span></h3>
+            <h2 class="section__title">Recent Projects</h2>
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <img src="assets/images/sarayoutest-github-io-1024x768desktop-4fa19c.jpg" alt="online-shopping-book" class="projects__img">
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web Development</span>
+                        <h2 class="projects__title">online-shopping-book</h2>
+                        <a href="https://sarayoutest.github.io/online-shopping-book/" target="_blank" class="projects__button button--flex">
+                            View Demo <i class="fas fa-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/images/9.jpg" alt="katra_life" class="projects__img">
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web Development</span>
+                        <h2 class="projects__title">katra_life</h2>
+                        <a href="https://katra-life.netlify.app/" target="_blank" class="projects__button button--flex">
+                            View Demo <i class="fas fa-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/images/food-web-sage-vercel-app-1024x768desktop-9a8e3e.jpg" alt="Food Website" class="projects__img">
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web Development</span>
+                        <h2 class="projects__title">Food Website</h2>
+                        <a href="https://food-web-sage.vercel.app/" target="_blank" class="projects__button button--flex">
+                            View Demo <i class="fas fa-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/images/6.jpg" alt="Fashion Website" class="projects__img">
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web Development</span>
+                        <h2 class="projects__title"> Fashion Website</h2>
+                        <a href="https://sarayoutest.github.io/Fashion/" class="projects__button button--flex">
+                            View Demo <i class="fas fa-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                </article>
+
+                
+                <article class="projects__card">
+                    <img src="assets/images/11.jpg" alt="To-do-list Website" class="projects__img">
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web Development</span>
+                        <h2 class="projects__title">React to-do-list </h2>
+                        <a href="https://sarayoutest.github.io/react-todo-list/" class="projects__button button--flex">
+                            View Demo <i class="fas fa-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/images/sarayoutest-github-io-1024x768desktop-9ccff0.jpg" alt="Trip Website" class="projects__img">
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web Development</span>
+                        <h2 class="projects__title">Trip Website</h2>
+                        <a href="https://sarayoutest.github.io/Trip/" target="_blank" class="projects__button button--flex">
+                            View Demo <i class="fas fa-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                </article>
+
+                    <article class="projects__card">
+                    <img src="assets/images/5.jpg" alt="To-do-list Website" class="projects__img">
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web Development</span>
+                        <h2 class="projects__title"> To-do-list</h2>
+                        <a href="https://sarayoutest.github.io/To-do-list/" class="projects__button button--flex">
+                            View Demo <i class="fas fa-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                    <article class="projects__card">
+                    <img src="assets/images/7.jpg" alt="Plant Website" class="projects__img">
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web Development</span>
+                        <h2 class="projects__title"> Plant Website</h2>
+                        <a href="https://sarayoutest.github.io/plant-web/" class="projects__button button--flex">
+                            View Demo <i class="fas fa-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="assets/images/4.jpg" alt="hospital Website" class="projects__img">
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web Development</span>
+                        <h2 class="projects__title"> web-hospital</h2>
+                        <a href="https://sarayoutest.github.io/web-hospital/" class="projects__button button--flex">
+                            View Demo <i class="fas fa-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                </article>
+                <article class="projects__card">
+                    <img src="assets/images/8.jpg" alt="Plant Website" class="projects__img">
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web Development</span>
+                        <h2 class="projects__title"> Plant Website</h2>
+                        <a href="https://sarayoutest.github.io/plants/" class="projects__button button--flex">
+                            View Demo <i class="fas fa-external-link-alt button__icon"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="certifications section" id="certifications">
+            <h2 class="section__title"><b>Certifications</b></h2>
+            <div class="certifications__container container grid">
+                <article class="certifications__card">
+                    <img src="assets/images/cer1.png" alt="Certification 1" class="certifications__img">
+                </article>
+                <article class="certifications__card">
+                    <img src="assets/images/cer2.png" alt="Certification 2" class="certifications__img">
+                </article>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h3 class="section__subtitle">Get In <span>Touch</span></h3>
+            <h2 class="section__title">Contact Me</h2>
+            <div class="contact__container container ">
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__group">
+                        <input type="text" name="from_name" required placeholder="Enter your name" class="contact__input">
+                        <input type="email" name="reply_to" required placeholder="Enter your email" class="contact__input">
+                    </div>
+                    <textarea name="message" required placeholder="Enter your message" class="contact__input"></textarea>
+                    <p class="contact__message" id="contact-message"></p>
+                    <button type="submit" class="button contact__button button--flex">
+                        Send Message <i class="fas fa-paper-plane button__icon"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">Sara<span>Youssef</span></h1>
+                <h2 class="footer__education">Front-end Developer</h2>
+            </div>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/share/8k8EEd9siiGjy7Bh/?mibextid=LQQJ4d" target="_blank" class="footer__social-link" aria-label="Facebook Profile">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/sara_youssef_s?igsh=Yno5d2lkNjBubG8x&utm_source=qr" target="_blank" class="footer__social-link" aria-label="Instagram Profile">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://github.com/sarayoutest" target="_blank" class="footer__social-link" aria-label="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://wa.me/963931852209" target="_blank" class="footer__social-link" aria-label="WhatsApp Contact">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <p class="footer__copy">&#169; 2024 Sara Youssef. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 
+
+
